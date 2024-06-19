@@ -1,24 +1,34 @@
 # search-frontend
+一个聚合搜索平台，统一搜索入口。
+本项目只是前端项目
 
-## Project setup
-```
-npm install
-```
+## 技术栈
+前端：ant-design-vue
+后端：springboot
+数据库：mysql
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 初始化项目
 
-### Compiles and minifies for production
+### 参考官方文档
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+# ant-design-vue 参考官方文档初始化项目
+https://2x.antdv.com/docs/vue/getting-started-cn
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 安装vue脚手架
+```
+npm install -g @vue/cli
+```
+
+### 创建vue项目
+```
+vue create search-frontend
+```
+### idea打开初始化好的项目
+
+### 安装ant-design-vue依赖
+```
+npm i --save ant-design-vue@next
+```
+
+
